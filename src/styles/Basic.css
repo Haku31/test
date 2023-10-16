@@ -1,0 +1,125 @@
+/* Estilos para los títulos en el contenedor */
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #ffffff; /* Color del texto en blanco */
+  }
+
+  /* Estilos para títulos en pantallas pequeñas y medianas */
+  @media (max-width: 768px) {
+    .container h1 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+
+  /* Estilos para los gráficos de línea y de barra */
+.line-chart,
+.bar-chart {
+  width: 100%;
+  padding: 30px;
+  max-width: 800px;
+  margin: 10px auto;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  border-radius: 20px; /* Bordes redondeados */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8); /* Sombra en relieve */
+}
+
+  /* Estilos para los gráficos de pastel y radar */
+  .pie-chart,
+  .radar-chart {
+    width: 100%;
+    padding: 30px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  }
+
+  /* Estilos para el contenedor en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+
+    /* Estilos para los elementos del menú */
+    .chart-type-dropdown,
+    .chart-dropdown,
+    .month-dropdown {
+      margin: 10px 0;
+      display: block;
+    }
+
+    /* Estilos para los menús desplegables */
+    .drop {
+      width: 100%;
+    }
+
+    /* Estilos para la gráfica de pastel en pantallas pequeñas */
+    .pie-chart {
+      max-width: 100%;
+    }
+
+    /* Estilos para los gráficos de línea y de barra en pantallas pequeñas */
+    .line-chart,
+    .bar-chart {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px auto;
+      margin-top: 50px;
+    }
+
+    /* Estilos adicionales para los menús desplegables en pantallas pequeñas */
+    .chart-type-dropdown, .chart-dropdown, .month-dropdown {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .dropdown-menu {
+      position: static;
+      width: 100%;
+    }
+
+    .dropdown-toggle {
+      width: 100%;
+      text-align: center;
+    }
+
+    .dropdown-item:hover {
+      background-color: rgba(255, 255, 255, 0.1); /* Cambia el fondo al pasar el mouse a un tono blanco */
+      color: #000000; /* Cambia el color del texto a negro */
+    }
+  }
+  /* Agrega estos estilos a tu CSS para personalizar los dropdown */
+
+/* Dropdown Toggle (botón del dropdown) */
+.dropdown-toggle {
+  background-color: #ac8282; /* Color de fondo oscuro */
+  color: #ffffff; /* Texto en color claro */
+  border: 1px solid #f0d0d0; /* Borde oscuro */
+  border-radius: 20px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #444; /* Cambio de color de fondo al pasar el mouse */
+}
+
+/* Dropdown Menú */
+.dropdown-menu {
+  background-color: #333; /* Fondo oscuro del menú */
+}
+
+.dropdown-item {
+  color: #fff; /* Texto en color claro */
+}
+
+.dropdown-item:hover {
+  background-color: #444; /* Cambio de color de fondo al pasar el mouse en el menú */
+}
+

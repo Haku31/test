@@ -1,0 +1,16 @@
+.line-chart {
+
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+
+  /* Estilos para la leyenda de la gráfica */
+  .bar-chart .chartjs-legend {
+    fill: white; /* Color de la leyenda en blanco */
+  }
+
+  /* Estilos para los números de los ejes de la gráfica */
+  .bar-chart .chartjs-tick {
+    fill: #ffffff; /* Color de los números de los ejes en gris claro */
+  }
