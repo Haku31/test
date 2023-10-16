@@ -61,7 +61,7 @@ function LineChartComponent({ data, selectedMonth, chartType }) {
     labels,
     datasets: [
       {
-        label: chartType === 'Ventas' ? 'Ventas por ciudad' : 'Usuarios por ciudad',
+        label: chartType === 'Ventas por mes' ? 'Ventas por ciudad' : 'Usuarios por ciudad',
         data: valoresMesEspecifico,
         height: 200,
         borderColor,

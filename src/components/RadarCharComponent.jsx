@@ -35,7 +35,7 @@ function RadarChartComponent({ data, selectedMonth, chartType }) {
         labels: regiones,
         datasets: [
             {
-                label: chartType === 'Ventas' ? '# de Ventas' : '# de Usuarios',
+                label: chartType === 'Ventas por mes' ? '# de Ventas' : '# de Usuarios',
                 data: valoresMesEspecifico,
                 backgroundColor: 'rgba(0, 123, 255, 0.2)',
                 borderColor: 'rgba(0, 123, 255, 1)',
