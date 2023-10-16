@@ -1,7 +1,7 @@
 {
   "name": "alex",
   "private": true,
-  "homepage": "https://haku31.github.io/graficas",
+  "homepage": "https://haku31.github.io/Chart/dist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
